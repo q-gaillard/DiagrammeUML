@@ -34,7 +34,7 @@ class Program
         Studio studio3 = new Studio("DreamWorks", "Glendale");
         studio3.Display();
 
-        // Création d'une instance de Movie
+        // Création d'une instance de Movie et Serie
         Movie movie1 = new Movie("Inception", 148, director1, studio1);
         movie1.Display();
 
@@ -46,6 +46,9 @@ class Program
 
         Movie movie4 = new Movie("Shrek", 90, director4, studio3);
         movie4.Display();
+
+        Serie serie1 = new Serie("Game of Thrones", 60, 8);
+        serie1.Display();
 
         // Création d'une instance de Playlist
         Playlist playlist1 = new Playlist("Mes films préférés");

@@ -15,15 +15,21 @@ class Studio
         this.city = "not defined";
     }
 
-    public string Name
+    public string GetName()
     {
-        get { return name; }
-        set { name = value; }
+        return name;
     }
-    public string City
+    public string GetCity()
     {
-        get { return city; }
-        set { city = value; }
+        return city;
+    }
+    public void SetName(string name)
+    {
+        this.name = name;
+    }
+    public void SetCity(string city)
+    {
+        this.city = city;
     }
 
     public void Display()

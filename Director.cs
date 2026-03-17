@@ -18,20 +18,29 @@ class Director
         this.country = "not defined";
     }
 
-    public string FirstName
+    public string GetFistName()
     {
-        get { return firstName; }
-        set { firstName = value; }
+        return firstName;
     }
-    public string LastName
+    public string GetLastName()
     {
-        get { return lastName; }
-        set { lastName = value; }
+        return lastName;
     }
-    public string Country
+    public string GetCountry()
     {
-        get { return country; }
-        set { country = value; }
+        return country;
+    }
+    public void SetFirstName(string firstName)
+    {
+        this.firstName = firstName;
+    }
+    public void SetLastName(string lastName)
+    {
+        this.lastName = lastName;
+    }
+    public void SetCountry(string country)
+    {
+        this.country = country;
     }
 
     public void Display()
